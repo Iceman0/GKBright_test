@@ -1,0 +1,25 @@
+{
+  "name": "bryntum",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^4.7.2",
+    "bryntum-schedulerpro": "file:../bryntum-scheduler-pro-4.0.0-rc-1/schedulerpro-4.0.0-rc-1/build",
+    "css-loader": "^5.0.0",
+    "less-loader": "^7.0.2",
+    "postcss-loader": "^4.0.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "0.9.5",
+    "react-use": "latest"
+  },
+  "devDependencies": {
+    "file-loader": "^6.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
